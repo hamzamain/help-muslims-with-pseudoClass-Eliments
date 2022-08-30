@@ -1,0 +1,310 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    /* font-family: 'Mingzat', sans-serif; */
+    /* font-family: 'Poppins', sans-serif; */
+    font-family: 'Roboto', sans-serif;
+    /* font-family: 'Rubik Moonrocks', cursive; */
+    padding: 0;
+    margin: 0;
+}
+
+.bg-image {
+    /* background-image: url(images/levi-meir-clancy-Y2oE2uNLSrs-unsplash.jpg);
+    background-repeat: no-repeat; */
+    /* background-position: left; */
+    /* height: 100vh; */
+    color: white;
+    background-size: cover;
+    align-items: center;
+    position: relative;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.302);
+    /* padding-left: 40px;
+    padding-right: 40px; */
+    padding-bottom: 40px;
+    border-radius: 5px;
+}
+
+.section-bottom-margin {
+    margin-bottom: 150px;
+}
+
+.common-margin {
+    margin: auto;
+}
+
+input[type=text],
+input[type=number] {
+    width: 40%;
+    margin: 20px auto;
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid rgb(92, 92, 92);
+    /* border: none; */
+    font-size: 20px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+}
+
+input[type=number]:focus {
+    border-bottom: 1px solid orangered;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+}
+
+.anchor-button-style-sce2 {
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 20px;
+    color: orangered;
+    text-decoration: none;
+    border: 1px solid orangered;
+    width: 10%;
+    margin: auto;
+    transition: background-color .5s ease-in, color .5s ease-in;
+}
+
+.anchor-button-style-sce2:hover {
+    background-color: orangered;
+    color: white;
+}
+
+
+.block-display {
+    display: block;
+}
+
+.section4-div-style {
+    width: 35%;
+    margin: auto;
+}
+
+.image-style {
+    width: 100%;
+}
+
+.common-h1-style {
+    font-size: 30px;
+    padding: 10px 10px;
+    margin: 10px auto;
+}
+
+#hyper-h1-need-extra-care {
+    font-size: 30px;
+    padding: 10px 0;
+    margin: 10px auto;
+}
+
+.side-by-side {
+    display: flex;
+}
+
+.scetion3-div {
+    width: 20%;
+    height: 200%;
+    padding: 40px;
+    margin: auto;
+    text-align: justify;
+    /* box-shadow: 10px 10px 40px lightgray; */
+}
+
+
+
+
+.icon-size {
+    height: 80px;
+    width: 80px;
+}
+
+.sec3-space {
+    padding: 10px 0;
+}
+
+.donate-amount {
+    /* position: absolute; */
+    padding: 40px;
+    font-size: 20px;
+    background-color: rgb(244, 244, 251);
+    margin: auto;
+    border-radius: 5px;
+    font-weight: 900;
+    color: rgb(144, 144, 144);
+    transition: background-color .5s ease-in, color .5s ease-in;
+}
+
+.donate-amount:hover {
+    background-color: rgb(250, 207, 191);
+    border: 2px solid orangered;
+    color: orangered;
+}
+
+
+.extra-padding {
+    padding-bottom: 40px;
+}
+
+
+
+.highlights {
+    color: orange;
+}
+
+.anchor-button-style {
+    background-color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 20px;
+    color: orangered;
+    text-decoration: none;
+    border: 1px solid orangered;
+    transition: background-color .5s ease-in, color .5s ease-in;
+
+}
+
+.anchor-button-style:hover {
+    background-color: orangered;
+    color: white;
+}
+
+.paragraph-style {
+    font-size: 14px;
+    padding-bottom: 40px;
+}
+
+.p-h1-center {
+    text-align: center;
+}
+
+.main-h1 {
+    font-size: 70px;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+}
+
+.main-p {
+    color: rgb(255, 255, 255);
+}
+
+footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+    /* width: 100%; */
+    padding: 20px;
+    height: 120px;
+    line-height: 50px;
+}
+
+span {
+    font-family: 'Niconne', cursive;
+    /* font-family: 'Roboto', sans-serif; */
+    color: orange;
+    font-size: 40px;
+}
+
+button {
+    border: none;
+}
+
+.form-bg {
+    padding: 40px 80px;
+    background-color: orange;
+    width: 40%;
+    margin: 0 auto;
+}
+
+#food-color {
+    background-color: rgba(222, 184, 135, 0.254);
+}
+
+#shelter-color {
+    background-color: rgba(95, 158, 160, 0.289);
+}
+
+#education-color {
+    background-color: rgba(210, 105, 30, 0.269);
+}
+
+input[type=email] {
+    background-color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+    /* border-bottom: 1px solid black;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0; */
+    text-align: center;
+}
+
+input[type=email]:focus {
+    border: 2px solid orangered;
+    color: orangered;
+}
+
+@keyframes sliding {
+
+
+    0% {
+        left: 10px;
+        top: 10px;
+        background-color: brown;
+    }
+
+    25% {
+        /* left: 10px; */
+        top: 80px;
+        background-color: brown;
+    }
+
+    50% {
+        /* left: calc(100% - 30px); */
+        top: 10px;
+        background-color: brown;
+    }
+
+    75% {
+        /* left: 10px; */
+        top: 80px;
+        background-color: brown;
+    }
+
+    100% {
+        left: calc(100% - 30px);
+        top: 10px;
+        background-color: brown;
+    }
+}
+
+.ani-container {
+    width: 100%;
+    height: 100px;
+    background-color: white;
+}
+
+.ball {
+    /* position: relative; */
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: brown;
+    position: relative;
+    top: 10px;
+    left: 10px;
+    animation: sliding 2s ease-in-out .2s infinite alternate;
+}
